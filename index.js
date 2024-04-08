@@ -70,7 +70,7 @@ function playShrugman() {
     }
   }
   if (shrugmanInProgress.length === 10) {
-    console.log("You loss");
+    console.log("You lost :(");
     answer = prompt(chalk.greenBright("Do you want play another round? (y/n): "));
     if (answer === "y") {
       playShrugman();
